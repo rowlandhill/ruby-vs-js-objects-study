@@ -26,7 +26,8 @@ By the end of this, students should be able to:
 -   Define a class for an object in Ruby that assigns attributes in the
     constructor.
 -   Create an instance of an object in Ruby using the `new` method.
--   Write setter and getter instance methods for Ruby objects.
+-   Write setter and getter instance methods for Ruby objects and JavaScript
+    objects.
 
 ## Instructions
 
