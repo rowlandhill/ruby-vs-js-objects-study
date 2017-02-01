@@ -9,14 +9,16 @@ differently from JavaScript objects.
 
 ## Prerequisites
 
--   [JavaScript Reference Types](https://github.com/ga-wdi-boston/js-reference-types)
--   [JavaScript Objects: Modeling](https://github.com/ga-wdi-boston/js-objects-modeling)
--   [JavaScript Objects: Referencing Own Properties](https://github.com/ga-wdi-boston/js-objects-this)
--   [JavaScript Constructors](https://github.com/ga-wdi-boston/js-objects-constructors)
--   [JavaScript Prototypes](https://github.com/ga-wdi-boston/js-objects-prototypes)
--   [Ruby vs. JavaScript](https://github.com/ga-wdi-boston/ruby-vs-js)
--   [Ruvy (Hash) vs. JavaScript (Dictionary)](https://github.com/ga-wdi-boston/ruby-vs-js-hash-dictionary)
--   [Ruby vs. JavaScript: Objects](https://github.com/ga-wdi-boston/ruby-object)
+-   General Assembly Boston: JavaScript Series
+    -   [JavaScript Reference Types](https://github.com/ga-wdi-boston/js-reference-types)
+    -   [JavaScript Objects: Modeling](https://github.com/ga-wdi-boston/js-objects-modeling)
+    -   [JavaScript Objects: Referencing Own Properties](https://github.com/ga-wdi-boston/js-objects-this)
+    -   [JavaScript Constructors](https://github.com/ga-wdi-boston/js-objects-constructors)
+    -   [JavaScript Prototypes](https://github.com/ga-wdi-boston/js-objects-prototypes)
+-   General Assembly Boston: Ruby vs. JavaScript Series
+    -   [Ruby vs. JavaScript](https://github.com/ga-wdi-boston/ruby-vs-js)
+    -   [Ruvy (Hash) vs. JavaScript (Dictionary)](https://github.com/ga-wdi-boston/ruby-vs-js-hash-dictionary)
+    -   [Ruby vs. JavaScript: Objects](https://github.com/ga-wdi-boston/ruby-object)
 
 ## Objectives
 
