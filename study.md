@@ -63,7 +63,7 @@ the_sun = Star.new(0, 1)
 nearest_star = the_sun
 ```
 
-Will modifying `sol` affect `the_sun`?  Why or why not?
+Will modifying `sol` affect `the_sun`? Why or why not?
 
 ```md
 <!-- your answer here -->
@@ -71,7 +71,7 @@ Will modifying `sol` affect `the_sun`?  Why or why not?
 
 ## Ruby Object Equality: Part II
 
-Will modifying `the_sun` affect `nearest_star`?  Why or why not?
+Will modifying `the_sun` affect `nearest_star`? Why or why not?
 
 ```md
 <!-- your answer here -->
