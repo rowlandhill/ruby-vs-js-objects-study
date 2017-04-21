@@ -22,7 +22,7 @@ Assume that we have the following class and an instance of it to work with.
 class Star
   def initialize(distance_ly, mass_solar)
     @distance_km = distance_ly * 9_460_730_472_580.8
-    mass_kg = mass_solar * (1.99 * 10 ** 30)
+    @mass_kg = mass_solar * (1.99 * 10 ** 30)
   end
 
   def print_distance
@@ -30,7 +30,7 @@ class Star
   end
 
   def print_mass
-    puts "The star has a mass of approximately #{mass_kg} kilograms."
+    puts "The star has a mass of approximately #{@mass_kg} kilograms."
   end
 end
 
@@ -41,7 +41,14 @@ Does `proxima_centauri.print_distance` run? Why or why not? If so, then what is
 the output? If not, then how can it be fixed?
 
 ```md
-<!-- your answer here -->
+It does run.  The output is:
+
+The star is approximately 40170261586578.086 kilometers away.
+nil
+
+I think it runs because, while the instance variables aren't being altered or viewed,
+they're still allowed to be used when invoking the Star.new() function and its arguments
+
 ```
 
 ## Ruby Object Variables: Part II
@@ -50,7 +57,15 @@ Does `proxima_centauri.print_mass` run? Why or why not? If so, then what is the
 output? If not, then how can it be fixed?
 
 ```md
-<!-- your answer here -->
+It does not run.  I think because mass_kg is a local variable, not an instance variable.
+Since it's an instance variable, it only exists inside the class.
+If we change mass_kg to an instance variable, it prints:
+
+proxima_centauri.print_mass
+
+The star has a mass of approximately 2.4477e+29 kilograms.
+=> nil
+
 ```
 
 ## Ruby Object Equality: Part I
@@ -66,7 +81,7 @@ nearest_star = the_sun
 Will modifying `sol` affect `the_sun`? Why or why not?
 
 ```md
-<!-- your answer here -->
+No, because they're two different variables that are not connected.
 ```
 
 ## Ruby Object Equality: Part II
@@ -74,7 +89,8 @@ Will modifying `sol` affect `the_sun`? Why or why not?
 Will modifying `the_sun` affect `nearest_star`? Why or why not?
 
 ```md
-<!-- your answer here -->
+No, because when nearest_star was assigned the value of the_sun, it just received
+the value of the_sun, and does not point to the_sun.
 ```
 
 ## JavaScript Objects
@@ -87,7 +103,10 @@ Create an object literal named `vega` with the following properties and values.
 | solarMass | 2.135 |
 
 ```javascript
-// your answer here
+var vega = {
+  distance: 25.04,
+  solarMass: 2.135
+}
 ```
 
 ## Ruby vs. JavaScript
@@ -96,5 +115,5 @@ If, in the above code, `var`, `let`, or `const` were removed and the code were
 executed as Ruby code, what type of object will be created?
 
 ```md
-<!-- your answer here -->
+a hash would be created.
 ```
